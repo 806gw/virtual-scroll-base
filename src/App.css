@@ -1,0 +1,40 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.list-container {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  height: 450px; 
+  overflow: auto;
+}
+
+.list-item {
+  height: 50px; 
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 20px;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.list-item:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.loading {
+  text-align: center;
+  padding: 10px;
+  font-size: 16px; 
+  color: #666;
+}

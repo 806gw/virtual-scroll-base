@@ -64,7 +64,7 @@ const NormalScrollList = () => {
 
 	return (
 		<div className="container">
-			<h1>가상 스크롤 + 무한 스크롤</h1>
+			<h1>무한 스크롤</h1>
 			<p>렌더링된 DOM 개수: {items.length}</p>
 			<div
 				ref={parentRef}
